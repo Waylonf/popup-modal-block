@@ -1,0 +1,12 @@
+{
+	"editor.fontSize": 16,
+	"editor.formatOnSave": false,
+	"terminal.integrated.fontSize": 12,
+	"terminal.integrated.fontWeight": "100",
+	"[scss]": {
+		"editor.formatOnSave": false,
+		"editor.codeActionsOnSave": {
+			"source.fixAll.stylelint": true
+		}
+	}
+}
