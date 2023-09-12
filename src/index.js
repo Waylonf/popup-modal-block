@@ -5,11 +5,11 @@ import Edit from './edit';
 import save from './save';
 
 import metadata from './block.json';
-import { grafikaIcon } from './icons';
+import { grafikaIcon as blockIcon } from './icons';
 
 registerBlockType( metadata.name, {
 	icon: {
-		src: grafikaIcon,
+		src: blockIcon,
 		foreground: 'var(--wp--preset--color--primary)',
 	},
 	keywords: [ __( 'text' ), __( 'textarea' ), __( 'box' ) ],
