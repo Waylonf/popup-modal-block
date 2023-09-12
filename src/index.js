@@ -10,7 +10,6 @@ import { grafikaIcon } from './icons';
 registerBlockType( metadata.name, {
 	icon: {
 		src: grafikaIcon,
-		background: 'var(--wp--preset--color--base)',
 		foreground: 'var(--wp--preset--color--primary)',
 	},
 	keywords: [ __( 'text' ), __( 'textarea' ), __( 'box' ) ],
