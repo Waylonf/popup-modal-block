@@ -1,4 +1,4 @@
-import { SVG, Path } from '@wordpress/components';
+import { SVG, Path } from '@wordpress/primitives';
 
 export const shadowIcon = (
 	<SVG viewBox="0 0 17.81 18.37">
