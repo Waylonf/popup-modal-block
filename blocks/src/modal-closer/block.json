@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "custom-theme-block/modal-closer",
+	"version": "0.1.0",
+	"title": "Modal Closer",
+	"category": "widgets",
+	"icon": "dismiss",
+	"description": "Insert a custom 'Dismiss' button, which can be used in conjunction with the functionality to dismiss the modal when clicking outside the actual modal body. Empower users to control their experience effortlessly.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "modal-closer",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

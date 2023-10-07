@@ -1,0 +1,20 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "custom-theme-block/modal-trigger",
+	"version": "0.1.0",
+	"title": "Modal Trigger",
+	"category": "widgets",
+	"icon": "fullscreen-alt",
+	"description": "Customize and design the perfect trigger for your modal popups with ease. Take control of when and how your modals appear, creating a seamless and visually appealing user experience.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"usesContext": ["custom-theme-block/modalContentType"],
+	"textdomain": "custom-modal-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

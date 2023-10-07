@@ -1,8 +1,3 @@
-/******/ (function() { // webpackBootstrap
-var __webpack_exports__ = {};
-/*!*********************!*\
-  !*** ./src/view.js ***!
-  \*********************/
 /**
  * Use this file for JavaScript code that you want to run in the front-end
  * on posts/pages that contain this block.
@@ -22,8 +17,5 @@ var __webpack_exports__ = {};
  */
 
 /* eslint-disable no-console */
-console.log('Hello World! (from create-block-boilerplate block)');
+console.log('Hello World! (from create-block-modal-closer block)');
 /* eslint-enable no-console */
-/******/ })()
-;
-//# sourceMappingURL=view.js.map

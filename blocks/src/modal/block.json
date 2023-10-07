@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "custom-theme-block/modal",
+	"version": "0.1.0",
+	"title": "Popup Modal Block",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Easily create and showcase stunning pop-up modals on your website with this user-friendly block. Engage your audience, capture their attention, and deliver your content in style with customizable modal windows. Say goodbye to complicated coding and hello to seamless modal creation – all at your fingertips!",
+	"supports": {
+		"html": true
+	},
+	"textdomain": "custom-modal-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js" 
+}

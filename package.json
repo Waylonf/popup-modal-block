@@ -1,19 +1,19 @@
 {
-	"name": "boilerplate",
+	"name": "custom-popup-block",
 	"version": "0.1.0",
-	"description": "Example block scaffolded with Create Block tool.",
+	"description": "A block that aloows you to insert popups and modals in your pages",
 	"author": "The Grafika Team",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
 	"scripts": {
-		"build": "wp-scripts build",
 		"format": "wp-scripts format && stylelint \"**/*.scss\" --fix",
 		"lint:css": "wp-scripts lint-style",
 		"lint:js": "wp-scripts lint-js",
 		"packages-update": "wp-scripts packages-update",
 		"plugin-zip": "wp-scripts plugin-zip",
-		"start": "wp-scripts start",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"start": "wp-scripts start --webpack-src-dir=blocks/src/ --output-path=blocks/build/",
+		"build": "wp-scripts build --webpack-src-dir=blocks/src/ --output-path=blocks/build/"
 	},
 	"prettier": "@wordpress/prettier-config",
 	"stylelint": {
@@ -25,14 +25,24 @@
 	},
 	"devDependencies": {
 		"@wordpress/components": "^25.7.0",
+		"@wordpress/dom-ready": "^3.41.0",
+		"@wordpress/edit-post": "^7.18.0",
+		"@wordpress/element": "^5.19.0",
 		"@wordpress/eslint-plugin": "^15.1.0",
+		"@wordpress/i18n": "^4.41.0",
+		"@wordpress/icons": "^9.32.0",
+		"@wordpress/plugins": "^6.9.0",
 		"@wordpress/prettier-config": "^2.24.0",
 		"@wordpress/scripts": "^26.12.0",
 		"@wordpress/stylelint-config": "^21.24.0",
+		"classnames": "^2.3.2",
 		"eslint-config-prettier": "^9.0.0",
 		"husky": "^8.0.3",
+		"install": "^0.13.0",
 		"lint-staged": "^14.0.1",
+		"npm": "^10.1.0",
 		"stylelint": "^14.16.1",
-		"classnames": "^2.3.2"
+		"venobox": "^2.0.4",
+		"wp-prettier": "^3.0.3"
 	}
 }

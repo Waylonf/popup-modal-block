@@ -1,0 +1,25 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "custom-theme-block/modal-content",
+	"version": "0.1.0",
+	"title": "Modal Content",
+	"category": "widgets",
+	"icon": "layout",
+	"description": "Unleash your creativity and create content for your eye-catching modal. Easily captivate your audience with stunning visuals and engaging messages and content.",
+	"example": {},
+	"supports": {
+		"html": false,
+		"color": {
+			"background": true
+		},
+		"spacing": {
+			"padding":true
+		}
+	},
+	"textdomain": "custom-modal-block",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}
